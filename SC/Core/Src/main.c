@@ -61,94 +61,94 @@ void display7SEG (int num)
 	switch (num)
 	{
 	case 0:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, RESET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, RESET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, SET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, RESET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, RESET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, SET);
 		break;
 	case 1:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, SET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, SET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, SET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, SET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, SET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, SET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, SET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, SET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, SET);
 			break;
 	case 2:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, SET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, RESET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, SET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, SET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, RESET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, SET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	case 3:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, SET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, SET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, SET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	case 4:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, SET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, SET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, SET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, RESET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, SET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, SET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, RESET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	case 5:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, SET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, SET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, RESET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, SET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, RESET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	case 6:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, SET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, RESET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, RESET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, SET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, RESET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, RESET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	case 7:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, SET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, SET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, SET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, SET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, SET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, SET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, SET);
 		break;
 	case 8:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, RESET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, RESET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, RESET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, RESET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	case 9:
-				HAL_GPIO_WritePin(L7a_GPIO_Port, L7a_Pin, RESET);
-				HAL_GPIO_WritePin(L7b_GPIO_Port, L7b_Pin, RESET);
-				HAL_GPIO_WritePin(L7c_GPIO_Port, L7c_Pin, RESET);
-				HAL_GPIO_WritePin(L7d_GPIO_Port, L7d_Pin, RESET);
-				HAL_GPIO_WritePin(L7e_GPIO_Port, L7e_Pin, SET);
-				HAL_GPIO_WritePin(L7f_GPIO_Port, L7f_Pin, RESET);
-				HAL_GPIO_WritePin(L7g_GPIO_Port, L7g_Pin, RESET);
+				HAL_GPIO_WritePin(SEG0_GPIO_Port, SEG0_Pin, RESET);
+				HAL_GPIO_WritePin(SEG1_GPIO_Port, SEG1_Pin, RESET);
+				HAL_GPIO_WritePin(SEG2_GPIO_Port, SEG2_Pin, RESET);
+				HAL_GPIO_WritePin(SEG3_GPIO_Port, SEG3_Pin, RESET);
+				HAL_GPIO_WritePin(SEG4_GPIO_Port, SEG4_Pin, SET);
+				HAL_GPIO_WritePin(SEG5_GPIO_Port, SEG5_Pin, RESET);
+				HAL_GPIO_WritePin(SEG6_GPIO_Port, SEG6_Pin, RESET);
 		break;
 	default:
 		break;
@@ -193,6 +193,22 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  int hour = 15, minute = 8, second = 50;
+
+	  	  second ++;
+	  	  	if ( second >= 60) {
+	  	  second = 0;
+	  	  minute ++;
+	  	  }
+	  	  	if( minute >= 60) {
+	  	   minute = 0;
+	  	   hour ++;
+	  	  }
+	  	  	if( hour >=24){
+	  	   hour = 0;
+	  	  }
+	  	   updateClockBuffer ();
+	  	   HAL_Delay (1000) ;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
