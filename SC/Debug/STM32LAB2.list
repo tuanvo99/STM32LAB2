@@ -595,8 +595,8 @@ int main(void)
  80004f2:	484b      	ldr	r0, [pc, #300]	; (8000620 <main+0x144>)
  80004f4:	f001 f9ee 	bl	80018d4 <HAL_TIM_Base_Start_IT>
   /* USER CODE END 2 */
-  setTimer1(50);
- 80004f8:	2032      	movs	r0, #50	; 0x32
+  setTimer1(25);
+ 80004f8:	2019      	movs	r0, #25
  80004fa:	f000 f985 	bl	8000808 <setTimer1>
   setTimer2(100);
  80004fe:	2064      	movs	r0, #100	; 0x64
@@ -613,8 +613,8 @@ int main(void)
  800050a:	681b      	ldr	r3, [r3, #0]
  800050c:	2b01      	cmp	r3, #1
  800050e:	d17a      	bne.n	8000606 <main+0x12a>
-	  	  setTimer1(50);
- 8000510:	2032      	movs	r0, #50	; 0x32
+	  	  setTimer1(25);
+ 8000510:	2019      	movs	r0, #25
  8000512:	f000 f979 	bl	8000808 <setTimer1>
 	  	  //TODO
 	  	  if(index==0) {

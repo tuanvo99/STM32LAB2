@@ -204,7 +204,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
-  setTimer1(50);
+  setTimer1(25);
   setTimer2(100);
   int index = 0;
   /* Infinite loop */
@@ -212,7 +212,7 @@ int main(void)
   while (1)
   {
 	  if(timer1_flag == 1){
-	  	  setTimer1(50);
+	  	  setTimer1(25);
 	  	  //TODO
 	  	  if(index==0) {
 	  		  HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, RESET);
