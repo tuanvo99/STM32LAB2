@@ -191,10 +191,14 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  setTimer1 (1000) ;
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  if(timer1_flag == 1){
+	  HAL_GPIO_TogglePin ( LED_RED_GPIO_Port , LED_RED_Pin );
+	  setTimer1 (2000) ;
+	  }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
