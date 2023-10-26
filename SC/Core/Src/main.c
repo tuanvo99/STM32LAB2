@@ -216,9 +216,11 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int hour = 15, minute = 8, second = 50;
-
+setTimer1(100);
   while (1)
-  {
+  {		if(timer1_flag ==0){
+	  setTimer1(100);
+	  //TODO
 	  	  second ++;
 	  	  	if ( second >= 60) {
 	  	  second = 0;
@@ -232,11 +234,10 @@ int main(void)
 	  	   hour = 0;
 	  	  }
 	  	   updateClockBuffer (hour,minute);
-	  	   HAL_Delay (1000) ;
     /* USER CODE END WHILE */
   }
     /* USER CODE BEGIN 3 */
-
+  }
   /* USER CODE END 3 */
 }
 
