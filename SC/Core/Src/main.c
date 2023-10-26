@@ -155,6 +155,23 @@ void display7SEG (int num)
 	}
 }
 
+
+const int MAX_LED = 4;
+int index_led = 0;
+int led_buffer[4] = {1,2,3,4};
+void update7SEG (int index){
+	switch (index){
+		case 0: display7SEG(led_buffer[index]);
+			break;
+		case 1: display7SEG(led_buffer[index]);
+			break;
+		case 2: display7SEG(led_buffer[index]);
+			break;
+		case 3: display7SEG(led_buffer[index]);
+			break;
+	}
+}
+
 void updateClockBuffer (int hour, int minute){
 	led_buffer[0] = hour/10;
 	led_buffer[1] = hour%10;
@@ -217,9 +234,9 @@ int main(void)
 	  	   updateClockBuffer (hour,minute);
 	  	   HAL_Delay (1000) ;
     /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
   }
+    /* USER CODE BEGIN 3 */
+
   /* USER CODE END 3 */
 }
 
